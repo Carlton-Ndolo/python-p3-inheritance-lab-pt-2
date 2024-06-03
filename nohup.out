@@ -1,0 +1,24 @@
+[33m[nodemon] 3.1.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `python3 main.py`[39m
+python3: can't open file 'main.py': [Errno 2] No such file or directory
+[31m[nodemon] process failed, unhandled exit code (2)[39m
+[31m[nodemon] [39m
+[31m[nodemon] Either the command has a syntax error,[39m
+[31m[nodemon] or it is exiting with reserved code 2.[39m
+[31m[nodemon] [39m
+[31m[nodemon] To keep nodemon running even after a code 2,[39m
+[31m[nodemon] add this to the end of your command: || exit 1[39m
+[31m[nodemon] [39m
+[31m[nodemon] Read more here: https://git.io/fNOAG[39m
+[31m[nodemon] [39m
+[31m[nodemon] nodemon will stop now so that you can fix the command.[39m
+[31m[nodemon] [39m
+[31m[nodemon] Error
+    at Bus.<anonymous> (/home/user/.nvm/versions/node/v21.7.1/lib/node_modules/nodemon/lib/nodemon.js:162:25)
+    at Bus.emit (node:events:531:35)
+    at ChildProcess.<anonymous> (/home/user/.nvm/versions/node/v21.7.1/lib/node_modules/nodemon/lib/monitor/run.js:219:11)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)[39m
